@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<title>Move it around</title>
+		<style>
+			body{
+				margin: 10px 0 0 0;
+				padding: 0;
+			}
+			canvas{
+				background-color: #000;
+			}
+		</style>
+	</head>
+	<body align="center">
+		<h2>Move it around!</h2>
+		<canvas id="myCanvas" width="1000" height="500"></canvas><br>
+    <span id="debug"></span>
+	</body>
+	<script type="text/javascript" src="js/Box2dWeb-2.1.a.3.js"></script>
+	<script type="text/javascript" src="js/gameplay.js"></script>
+  <!--
+  <script type="text/javascript">
+		document.onkeydown = function(e) {
+    		e = e || window.event;
+    		switch(e.which || e.keyCode) {
+    			case 37:
+    				// left
+    				translateLeft();
+    				break;
+    			case 38:
+    				// up
+    				translateUp();
+    				break;
+    			case 39:
+    				// right
+    				translateRight();
+    				break;
+    			case 40:
+    				// down
+    				translateDown();
+    				break;
+    		}
+    		e.preventDefault();
+    	}
+
+    	function translateLeft(){
+      		keyInUse.innerHTML = "LEFT";            
+   		}
+
+   		function translateRight(){
+      		keyInUse.innerHTML = "RIGHT";            
+   		}
+
+   		function translateUp(){
+      		keyInUse.innerHTML = "UP";            
+   		}
+
+   		function translateDown(){
+      		keyInUse.innerHTML = "DOWN";            
+   		}
+	</script>
+  -->
+</html>
